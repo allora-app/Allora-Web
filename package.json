@@ -1,17 +1,16 @@
 {
   "name": "allora-web",
-  "version": "0.0.1",
-  "description": "-",
-  "main": "index.js",
-  "repository": "https://github.com/allora-app/Allora-Web.git",
-  "author": "Igor Blinnikov <Igor.Blinnikov@gmail.com>",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "^15.5.4",
-    "react-redux": "^5.0.4",
-    "redux": "^3.6.0"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.9"
   },
-  "devDependencies": {
-    "webpack": "^2.5.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
